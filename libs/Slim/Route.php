@@ -407,6 +407,30 @@ class Route
     }
 
     /**
+     * Set route name
+     * @param  string     $name The name of the route
+     * @return \Slim\Route
+     */
+    public function email($email)
+    {
+        $this->setEmail($email);
+
+        return $this;
+    }
+
+    /**
+     * Set route name
+     * @param  string     $name The name of the route
+     * @return \Slim\Route
+     */
+    public function password($password)
+    {
+        $this->setPassword($password);
+
+        return $this;
+    }
+
+    /**
      * Merge route conditions
      * @param  array      $conditions Key-value array of URL parameter conditions
      * @return \Slim\Route
