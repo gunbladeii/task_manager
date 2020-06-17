@@ -2,8 +2,8 @@
 /**
  * Database configuration
  */
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
+define('DB_USERNAME', 'task_manager');
+define('DB_PASSWORD', 'Sh@ti5620');
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'task_manager');
 
